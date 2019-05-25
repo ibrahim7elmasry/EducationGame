@@ -1,0 +1,234 @@
+body
+{ 
+    background:url("images/1.jpg");
+   
+    background-size: 40% 30%;
+}
+ 
+#container
+{ 
+    
+    width: 600px;
+    height: 350px;
+    background-color: rgb(7, 87, 124);  
+    border-radius: 10px;
+    box-shadow: 200px black;
+    padding: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 4px lightblue;
+}
+
+ #score
+{
+    width: 75px;
+    height: 24px;
+    color: #888E5F;
+    background-color:rgb(237, 250, 54);
+    border: 1px lightblue;
+    box-shadow: 0 5px rgb(157, 168, 83);
+    border-radius: 30px;
+    float: right;
+    padding: 10px;
+    margin-top: -75px;
+    margin-right: -70px;
+
+   
+}
+ 
+#question {
+    position: absolute;
+    background-color: rgb(111, 180, 197);
+    border-radius: 30px;
+    box-shadow: 0 4px rgb(158, 212, 230);
+    width: 500px;
+    height: 170px;
+    margin-left: 42px;
+    margin-top: -15px;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+
+}
+ 
+#correctAnswer{
+    background-color: rgb(111, 180, 197);
+    width: 500px;
+    height: 30px;
+    position: relative;
+    margin-top: 170px;
+    margin-left: 50px;
+    text-align: center; 
+    margin-top: 182px;
+    color: black;
+    font-size: 22px;
+    font-style: oblique;
+    border-radius: 30px;
+    box-shadow: 0 4px rgb(158, 212, 230);
+}
+ul#answers{
+    padding: 0;
+}
+
+ul#answers > li,
+#start-reset
+{
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow transform 0.2s;
+}
+
+#choises > ul#answer >li
+{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 44px;
+}
+
+
+ 
+article > div#container > div#choises >  ul#answer > li
+{
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 44px;
+}
+ 
+article > div#container > div#choises > ul#answers
+{
+    padding: 0;
+}
+
+
+article >  #container > #choises > ul#answers >li 
+
+{
+    width: 100%;
+      height: 44px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+  
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow transform 0.2s;
+    margin-left: 250px;
+}
+ 
+article > div#container > div#choises > ul#answers > li:active,
+article > div#container > button#start-reset:active
+{
+     
+    color: white;
+    background-color: rgb(26, 186, 214);
+    box-shadow: 1 1 rgb(65, 214, 252);
+ 
+}
+
+ 
+article > div#container > div#choises > ul#answers > li,
+ article > #container > button#start-reset 
+{
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow transform 0.2s;
+    margin-top: -6px;
+    padding: 7px;
+    
+    width: 100px;
+    height:auto;
+    background-color: aliceblue;
+
+    position: relative;
+    top: -10px;
+    
+}
+
+article > #container >  #start-reset
+{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0;
+    line-height: 1.5;
+    display: block;
+    margin-right: 550px;
+    margin-top: 50px;
+}
+
+article > #container >  #time 
+
+{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(237, 250, 54);
+    border-radius: 5px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    margin-top: -80px;
+    margin-left: 530px;
+    position: absolute;
+    bottom: 60px;
+
+}
+
+ #gameOver
+{
+     
+    color: white;
+    background-color: rgb(167, 7, 61);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -450px;
+    display: none;
+    margin-left: -193px;
+    display: none;
+    margin-left: 100px;
+    padding: 60px;
+    min-width: 250px; 
+  
+    }
+
+#clear
+{
+    clear: both;
+}
+
+li
+{
+    
+    list-style: none;
+}
+
+ 
+
+  .elements
+{
+   
+    display: inline-block;
+    padding: 10px;
+    font-size: 20p;
+
+}
+
+#message
+{
+    position: absolute;
+    margin-top: -70px;
+    width: 350px;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+    visibility: hidden;
+
+}
